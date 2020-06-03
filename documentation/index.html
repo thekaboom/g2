@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<title>HTML5 Face Builder - documentation</title>
+ 	<meta name="description" content="This application allows your members to create their own Faces (or avatars). The script generates a result image which can be used wherever you want (your website or any other social network)">
+	<meta name="author" content="AramisGC">
+	<meta name="copyright" content="AramisGC">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-02-25T00:00:00+01:00">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    http://envato.com/wp-content/themes/envato/images/favicon.ico
+	
+	<style>
+		html, body{background-color:#FFFFFF;color:#383838;}
+		h1,h2,h3,h4,h5,h6{color:#383838;}
+		section table{background-color:#FFFFFF;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		a.brand{background-image:url(assets/images/image_1.png);}
+		a, a:hover, a:active{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		div.navbar-inner, .navbar .nav li ul{background:#DDDDDD;color:#222222;}
+		a.btn-navbar{background:#DDDDDD;color:#222222;}
+		.navbar .nav li a{color:#222222;text-shadow:1px 1px 0px #EEEEEE;}
+		.navbar .nav li a:hover, .navbar .nav li.active a{text-shadow:none;}
+		div.navbar-inner ul{}
+		/*.marketing-byline{color:#FFFFFF;}*/
+		.navbar .nav > li a{color:#444444;}
+		.navbar .nav > li a:hover, a.btn-navbar:hover{background:#444444;color:#DDDDDD;}
+		.navbar .nav .active > a, .navbar .nav .active > a:hover, a.btn-navbar:active{background-color:#444444;color:#DDDDDD;}
+		.navbar .nav li ul li a:hover{background:#444444;color:#DDDDDD;}
+		.navbar .nav li ul li a:active{background:#444444;color:#DDDDDD;}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  background-color: #0044CC;
+		}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+	
+	
+    </head>
+    
+<body class="documenter-project-html5-face-builder" data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="#">HTML5 Face Builder - documentation</a>
+			<div class="nav-collapse">
+			<ul class="nav">
+					
+			<li><a href="#quick_start" title="Quick start">Quick start</a></li>
+			<li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+			<li><a href="#css" title="CSS">CSS</a></li>
+			<li><a href="#javascript" title="JavaScript">JavaScript</a></li>
+			<li><a href="#php" title="PHP">PHP</a></li>
+			<li><a href="#resources" title="Resources">Resources</a></li>
+			<li><a href="#credits" title="Credits">Credits</a></li>
+			<li><a href="#change_log" title="Change Log">Change Log</a></li>
+
+			</ul>
+			</div>
+		</div>
+	</div>
+</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container" id="documenter_content">
+    
+	<div id="documenter-cover">
+	<div class="masthead">
+	    <h1>HTML5 Face Builder - documentation</h1>
+	    <p>This application allows your members to create their own Faces (or avatars). The script generates a result image which can be used wherever you want (your website or any other social network)</p>
+	    <ul class="marketing-byline">
+			<li>created: 12/27/2013</li>
+			<li>latest update: 25/02/2014</li>
+			<li>by: AramisGC</li>
+			<li><a href="http://codecanyon.net/user/AramisGC?ref=AramisGC">codecanyon.net/user/AramisGC</a></li>
+		</ul>
+	    <p class="download-info">
+			<a href="http://codecanyon.net/user/AramisGC?ref=AramisGC" class="btn btn-primary btn-large">Contact</a> <a href="http://www.script-tutorials.com/" class="btn btn-large">Blog</a> 
+		</p>
+		
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit">Thank you for purchasing my application. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+   </div> <!-- intro -->
+   
+	</div>
+      
+  <section id="quick_start">
+	<div class="page-header"><h3>Quick start</h3><hr class="notop"></div>
+<p>
+	<span class="short_text" id="result_box" lang="en"><span class="hps">You</span> <span class="hps">have just purchased the HTML5 face builder application. You may use it as it (in this case all you need is to copy all the following files and folders onto your website: &#39;cache&#39;, &#39;css&#39;, &#39;data&#39;, &#39;js&#39;, &#39;accept_avatar.php&#39;, &#39;email.php&#39; and &#39;index.html&#39;), or you may integrate it <span class="short_text" id="result_box" lang="en"><span class="hps">with your</span> <span class="hps">existing project.</span></span></span></span></p>
+<p>
+	<span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps">In order to integrate it with your project, <span class="short_text" id="result_box" lang="en"><span class="hps">you will need some</span> <span class="hps">basic skills to work with</span> <span class="hps">html</span></span></span></span></span></span> and ftp. <span class="short_text" id="result_box" lang="en"><span class="hps">I hope</span> <span class="hps">that</span><span>&#39;s not a problem</span> <span class="hps">for you. To add the necessary code into your project, please review all the following sections of the documentation : HTML, CSS, JAVASCRIPT, PHP and RESOURCES</span></span></p>
+</section>
+<section id="html_structure">
+	<div class="page-header"><h3>HTML Structure</h3><hr class="notop"></div>
+<p>
+	This application is a fluid layout with two columns (the first column is 370px). The face builder is nested within a div with a class of &quot;container&quot;. The first column content is within a div with a class of &quot;left&quot;, and the second column content is within a div with a class of &quot;right&quot;. Here is the general structure.</p>
+<p>
+	<img alt="HTML Structure" src="assets/images/image_2.png"  ></p>
+<p>
+	If you would like to remove one or more sections from this application, you should do it in two places of HTML: the first is with id of &#39;ba_tabs&#39;, and the second is with id of &#39;ba_pabs&#39;.</p>
+<p>
+	The full HTML structure of the application is:</p>
+<pre class="prettyprint lang-html linenums">
+&lt;!-- primary container --&gt;
+&lt;div class=&quot;container&quot;&gt;
+
+    &lt;!-- left column --&gt;
+    &lt;div class=&quot;left&quot;&gt;
+        &lt;div class=&quot;scene&quot;&gt;
+            &lt;canvas id=&quot;scene&quot; width=&quot;340&quot; height=&quot;340&quot;&gt;&lt;/canvas&gt;
+            &lt;canvas id=&quot;scene2&quot; width=&quot;340&quot; height=&quot;340&quot;&gt;&lt;/canvas&gt;
+            &lt;div class=&quot;loading&quot;&gt;
+                &lt;div&gt;&lt;/div&gt;
+                &lt;div&gt;&lt;/div&gt;
+                &lt;div&gt;&lt;/div&gt;
+                &lt;div&gt;&lt;/div&gt;
+                &lt;div&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;generate&quot;&gt;&lt;button class=&quot;button&quot;&gt;Generate Image&lt;/button&gt;&lt;/div&gt;
+    &lt;/div&gt;&lt;!-- end of left column --&gt;
+
+    &lt;!-- right column --&gt;
+    &lt;div class=&quot;right&quot;&gt;
+
+        &lt;!-- main type buttons --&gt;
+        &lt;div id=&quot;ba_tabs&quot; class=&quot;ba_tabs&quot;&gt;
+            &lt;a href=&quot;#fringes&quot; class=&quot;button&quot;&gt;Fringe&lt;/a&gt;
+            &lt;a href=&quot;#eyebrows&quot; class=&quot;button&quot;&gt;Eyebrows&lt;/a&gt;
+            &lt;a href=&quot;#eyes&quot; class=&quot;button&quot;&gt;Eyes&lt;/a&gt;
+            &lt;a href=&quot;#mouths&quot; class=&quot;button&quot;&gt;Mouth&lt;/a&gt;
+            &lt;a href=&quot;#tops&quot; class=&quot;button&quot;&gt;Top&lt;/a&gt;
+            &lt;a href=&quot;#skins&quot; class=&quot;button&quot;&gt;Skin&lt;/a&gt;
+            &lt;a href=&quot;#back&quot; class=&quot;button&quot;&gt;Background&lt;/a&gt;
+        &lt;/div&gt;&lt;!-- end of main type buttons --&gt;
+
+        &lt;!-- sliding panels --&gt;
+        &lt;div id=&quot;ba_pabs&quot; class=&quot;ba_pabs&quot;&gt;
+            &lt;span id=&quot;home&quot;&gt;&lt;/span&gt;
+            &lt;span id=&quot;fringes&quot;&gt;&lt;/span&gt;
+            &lt;span id=&quot;eyebrows&quot;&gt;&lt;/span&gt;
+            &lt;span id=&quot;eyes&quot;&gt;&lt;/span&gt;
+            &lt;span id=&quot;mouths&quot;&gt;&lt;/span&gt;
+            &lt;span id=&quot;tops&quot;&gt;&lt;/span&gt;
+            &lt;span id=&quot;skins&quot;&gt;&lt;/span&gt;
+            &lt;span id=&quot;back&quot;&gt;&lt;/span&gt;
+
+            &lt;!-- internal panels list is here --&gt;
+            &lt;div id=&quot;fringe&quot;&gt;
+                &lt;div class=&quot;type&quot;&gt;
+                    &lt;h2&gt;Fringe&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div val=&quot;0&quot;&gt;1&lt;/div&gt;
+                        &lt;div val=&quot;1&quot;&gt;2&lt;/div&gt;
+                        &lt;div val=&quot;2&quot;&gt;3&lt;/div&gt;
+                        &lt;div val=&quot;3&quot;&gt;4&lt;/div&gt;
+                        &lt;div val=&quot;4&quot;&gt;5&lt;/div&gt;
+                        &lt;div val=&quot;5&quot;&gt;6&lt;/div&gt;
+                        &lt;div val=&quot;6&quot;&gt;7&lt;/div&gt;
+                        &lt;div val=&quot;7&quot;&gt;8&lt;/div&gt;
+                        &lt;div val=&quot;8&quot;&gt;9&lt;/div&gt;
+                        &lt;div val=&quot;9&quot;&gt;10&lt;/div&gt;
+                        &lt;div val=&quot;10&quot;&gt;11&lt;/div&gt;
+                        &lt;div val=&quot;11&quot;&gt;12&lt;/div&gt;
+                        &lt;div val=&quot;12&quot;&gt;13&lt;/div&gt;
+                        &lt;div val=&quot;13&quot;&gt;14&lt;/div&gt;
+                        &lt;div val=&quot;14&quot;&gt;15&lt;/div&gt;
+                        &lt;div val=&quot;15&quot;&gt;16&lt;/div&gt;
+                        &lt;div val=&quot;16&quot;&gt;17&lt;/div&gt;
+                        &lt;div val=&quot;17&quot;&gt;18&lt;/div&gt;
+                        &lt;div val=&quot;18&quot;&gt;19&lt;/div&gt;
+                        &lt;div val=&quot;19&quot;&gt;20&lt;/div&gt;
+                        &lt;div val=&quot;20&quot;&gt;21&lt;/div&gt;
+                        &lt;div val=&quot;21&quot;&gt;22&lt;/div&gt;
+                        &lt;div val=&quot;22&quot;&gt;23&lt;/div&gt;
+                        &lt;div val=&quot;23&quot;&gt;24&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;color&quot;&gt;
+                    &lt;h2&gt;Fringe color&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 255, 1)&quot; val=&quot;0&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 153, 1)&quot; val=&quot;1&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(102, 204, 255, 1)&quot; val=&quot;2&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 204, 0, 1)&quot; val=&quot;3&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 102, 0, 1)&quot; val=&quot;4&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(198, 0, 39, 1)&quot; val=&quot;5&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(106, 0, 21, 1)&quot; val=&quot;6&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(230, 153, 177, 1)&quot; val=&quot;7&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(221, 0, 88, 1)&quot; val=&quot;8&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(210, 168, 219, 1)&quot; val=&quot;9&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(90, 46, 90, 1)&quot; val=&quot;10&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(202, 228, 255, 1)&quot; val=&quot;11&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 34, 153, 1)&quot; val=&quot;12&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 213, 154, 1)&quot; val=&quot;13&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(172, 206, 121, 1)&quot; val=&quot;14&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 102, 0, 1)&quot; val=&quot;15&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(216, 173, 109, 1)&quot; val=&quot;16&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(115, 77, 53, 1)&quot; val=&quot;17&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(68, 46, 32, 1)&quot; val=&quot;18&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(134, 107, 98, 1)&quot; val=&quot;19&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(138, 60, 60, 1)&quot; val=&quot;20&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(74, 32, 32, 1)&quot; val=&quot;21&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(153, 153, 153, 1)&quot; val=&quot;22&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(64, 53, 56, 1)&quot; val=&quot;23&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div id=&quot;eyebrow&quot;&gt;
+                &lt;div class=&quot;type&quot;&gt;
+                    &lt;h2&gt;Eyebrows&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div val=&quot;0&quot;&gt;1&lt;/div&gt;
+                        &lt;div val=&quot;1&quot;&gt;2&lt;/div&gt;
+                        &lt;div val=&quot;2&quot;&gt;3&lt;/div&gt;
+                        &lt;div val=&quot;3&quot;&gt;4&lt;/div&gt;
+                        &lt;div val=&quot;4&quot;&gt;5&lt;/div&gt;
+                        &lt;div val=&quot;5&quot;&gt;6&lt;/div&gt;
+                        &lt;div val=&quot;6&quot;&gt;7&lt;/div&gt;
+                        &lt;div val=&quot;7&quot;&gt;8&lt;/div&gt;
+                        &lt;div val=&quot;8&quot;&gt;9&lt;/div&gt;
+                        &lt;div val=&quot;9&quot;&gt;10&lt;/div&gt;
+                        &lt;div val=&quot;10&quot;&gt;11&lt;/div&gt;
+                        &lt;div val=&quot;11&quot;&gt;12&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;color&quot;&gt;
+                    &lt;h2&gt;Eyebrows color&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 255, 1)&quot; val=&quot;0&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 153, 1)&quot; val=&quot;1&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(102, 204, 255, 1)&quot; val=&quot;2&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 204, 0, 1)&quot; val=&quot;3&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 102, 0, 1)&quot; val=&quot;4&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(198, 0, 39, 1)&quot; val=&quot;5&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(106, 0, 21, 1)&quot; val=&quot;6&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(230, 153, 177, 1)&quot; val=&quot;7&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(221, 0, 88, 1)&quot; val=&quot;8&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(210, 168, 219, 1)&quot; val=&quot;9&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(90, 46, 90, 1)&quot; val=&quot;10&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(202, 228, 255, 1)&quot; val=&quot;11&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 34, 153, 1)&quot; val=&quot;12&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 213, 154, 1)&quot; val=&quot;13&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(172, 206, 121, 1)&quot; val=&quot;14&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 102, 0, 1)&quot; val=&quot;15&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(216, 173, 109, 1)&quot; val=&quot;16&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(115, 77, 53, 1)&quot; val=&quot;17&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(68, 46, 32, 1)&quot; val=&quot;18&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(134, 107, 98, 1)&quot; val=&quot;19&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(138, 60, 60, 1)&quot; val=&quot;20&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(74, 32, 32, 1)&quot; val=&quot;21&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(153, 153, 153, 1)&quot; val=&quot;22&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(64, 53, 56, 1)&quot; val=&quot;23&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div id=&quot;eye&quot;&gt;
+                &lt;div class=&quot;type&quot;&gt;
+                    &lt;h2&gt;Eyes&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div val=&quot;0&quot;&gt;1&lt;/div&gt;
+                        &lt;div val=&quot;1&quot;&gt;2&lt;/div&gt;
+                        &lt;div val=&quot;2&quot;&gt;3&lt;/div&gt;
+                        &lt;div val=&quot;3&quot;&gt;4&lt;/div&gt;
+                        &lt;div val=&quot;4&quot;&gt;5&lt;/div&gt;
+                        &lt;div val=&quot;5&quot;&gt;6&lt;/div&gt;
+                        &lt;div val=&quot;6&quot;&gt;7&lt;/div&gt;
+                        &lt;div val=&quot;7&quot;&gt;8&lt;/div&gt;
+                        &lt;div val=&quot;8&quot;&gt;9&lt;/div&gt;
+                        &lt;div val=&quot;9&quot;&gt;10&lt;/div&gt;
+                        &lt;div val=&quot;10&quot;&gt;11&lt;/div&gt;
+                        &lt;div val=&quot;11&quot;&gt;12&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;color&quot;&gt;
+                    &lt;h2&gt;Eyes color&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 255, 1)&quot; val=&quot;0&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 153, 1)&quot; val=&quot;1&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(102, 204, 255, 1)&quot; val=&quot;2&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 204, 0, 1)&quot; val=&quot;3&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 102, 0, 1)&quot; val=&quot;4&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(198, 0, 39, 1)&quot; val=&quot;5&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(106, 0, 21, 1)&quot; val=&quot;6&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(230, 153, 177, 1)&quot; val=&quot;7&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(221, 0, 88, 1)&quot; val=&quot;8&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(210, 168, 219, 1)&quot; val=&quot;9&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(90, 46, 90, 1)&quot; val=&quot;10&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(202, 228, 255, 1)&quot; val=&quot;11&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 34, 153, 1)&quot; val=&quot;12&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 213, 154, 1)&quot; val=&quot;13&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(172, 206, 121, 1)&quot; val=&quot;14&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 102, 0, 1)&quot; val=&quot;15&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(216, 173, 109, 1)&quot; val=&quot;16&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(115, 77, 53, 1)&quot; val=&quot;17&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(68, 46, 32, 1)&quot; val=&quot;18&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(134, 107, 98, 1)&quot; val=&quot;19&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(138, 60, 60, 1)&quot; val=&quot;20&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(74, 32, 32, 1)&quot; val=&quot;21&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(153, 153, 153, 1)&quot; val=&quot;22&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(64, 53, 56, 1)&quot; val=&quot;23&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div id=&quot;mouth&quot;&gt;
+                &lt;div class=&quot;type&quot;&gt;
+                    &lt;h2&gt;Mouth&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div val=&quot;0&quot;&gt;1&lt;/div&gt;
+                        &lt;div val=&quot;1&quot;&gt;2&lt;/div&gt;
+                        &lt;div val=&quot;2&quot;&gt;3&lt;/div&gt;
+                        &lt;div val=&quot;3&quot;&gt;4&lt;/div&gt;
+                        &lt;div val=&quot;4&quot;&gt;5&lt;/div&gt;
+                        &lt;div val=&quot;5&quot;&gt;6&lt;/div&gt;
+                        &lt;div val=&quot;6&quot;&gt;7&lt;/div&gt;
+                        &lt;div val=&quot;7&quot;&gt;8&lt;/div&gt;
+                        &lt;div val=&quot;8&quot;&gt;9&lt;/div&gt;
+                        &lt;div val=&quot;9&quot;&gt;10&lt;/div&gt;
+                        &lt;div val=&quot;10&quot;&gt;11&lt;/div&gt;
+                        &lt;div val=&quot;11&quot;&gt;12&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div id=&quot;top&quot;&gt;
+                &lt;div class=&quot;type&quot;&gt;
+                    &lt;h2&gt;Top&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div val=&quot;0&quot;&gt;1&lt;/div&gt;
+                        &lt;div val=&quot;1&quot;&gt;2&lt;/div&gt;
+                        &lt;div val=&quot;2&quot;&gt;3&lt;/div&gt;
+                        &lt;div val=&quot;3&quot;&gt;4&lt;/div&gt;
+                        &lt;div val=&quot;4&quot;&gt;5&lt;/div&gt;
+                        &lt;div val=&quot;5&quot;&gt;6&lt;/div&gt;
+                        &lt;div val=&quot;6&quot;&gt;7&lt;/div&gt;
+                        &lt;div val=&quot;7&quot;&gt;8&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;color&quot;&gt;
+                    &lt;h2&gt;Top color&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 255, 1)&quot; val=&quot;0&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 153, 1)&quot; val=&quot;1&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(102, 204, 255, 1)&quot; val=&quot;2&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 204, 0, 1)&quot; val=&quot;3&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 102, 0, 1)&quot; val=&quot;4&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(198, 0, 39, 1)&quot; val=&quot;5&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(106, 0, 21, 1)&quot; val=&quot;6&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(230, 153, 177, 1)&quot; val=&quot;7&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(221, 0, 88, 1)&quot; val=&quot;8&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(210, 168, 219, 1)&quot; val=&quot;9&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(90, 46, 90, 1)&quot; val=&quot;10&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(202, 228, 255, 1)&quot; val=&quot;11&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 34, 153, 1)&quot; val=&quot;12&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 213, 154, 1)&quot; val=&quot;13&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(172, 206, 121, 1)&quot; val=&quot;14&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 102, 0, 1)&quot; val=&quot;15&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(216, 173, 109, 1)&quot; val=&quot;16&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(115, 77, 53, 1)&quot; val=&quot;17&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(68, 46, 32, 1)&quot; val=&quot;18&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(134, 107, 98, 1)&quot; val=&quot;19&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(138, 60, 60, 1)&quot; val=&quot;20&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(74, 32, 32, 1)&quot; val=&quot;21&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(153, 153, 153, 1)&quot; val=&quot;22&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(64, 53, 56, 1)&quot; val=&quot;23&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div id=&quot;skin&quot;&gt;
+                &lt;div class=&quot;color&quot;&gt;
+                    &lt;h2&gt;Skin color&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div style=&quot;background-color:#fbefca&quot; val=&quot;0&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:#ffd193&quot; val=&quot;1&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:#ffad8a&quot; val=&quot;2&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:#eba769&quot; val=&quot;3&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:#ba805c&quot; val=&quot;4&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:#7a4f34&quot; val=&quot;5&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div id=&quot;back&quot;&gt;
+                &lt;div class=&quot;color&quot;&gt;
+                    &lt;h2&gt;Background color&lt;/h2&gt;
+                    &lt;div class=&quot;set&quot;&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 255, 1)&quot; val=&quot;0&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 255, 153, 1)&quot; val=&quot;1&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(102, 204, 255, 1)&quot; val=&quot;2&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 204, 0, 1)&quot; val=&quot;3&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(255, 102, 0, 1)&quot; val=&quot;4&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(198, 0, 39, 1)&quot; val=&quot;5&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(106, 0, 21, 1)&quot; val=&quot;6&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(230, 153, 177, 1)&quot; val=&quot;7&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(221, 0, 88, 1)&quot; val=&quot;8&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(210, 168, 219, 1)&quot; val=&quot;9&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(90, 46, 90, 1)&quot; val=&quot;10&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(202, 228, 255, 1)&quot; val=&quot;11&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 34, 153, 1)&quot; val=&quot;12&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 213, 154, 1)&quot; val=&quot;13&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(172, 206, 121, 1)&quot; val=&quot;14&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(0, 102, 0, 1)&quot; val=&quot;15&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(216, 173, 109, 1)&quot; val=&quot;16&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(115, 77, 53, 1)&quot; val=&quot;17&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(68, 46, 32, 1)&quot; val=&quot;18&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(134, 107, 98, 1)&quot; val=&quot;19&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(138, 60, 60, 1)&quot; val=&quot;20&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(74, 32, 32, 1)&quot; val=&quot;21&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(153, 153, 153, 1)&quot; val=&quot;22&quot;&gt;&lt;/div&gt;
+                        &lt;div style=&quot;background-color:rgba(64, 53, 56, 1)&quot; val=&quot;23&quot;&gt;&lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+        &lt;/div&gt;&lt;!-- end of sliding panels --&gt;
+
+    &lt;/div&gt;&lt;!-- end of right column --&gt;
+&lt;/div&gt;&lt;!-- end of primary container --&gt;
+&lt;div class=&quot;result&quot;&gt;&lt;/div&gt;
+</pre>
+<p>
+	<strong>Pay attention, that the last element with the class of &#39;result&#39; is for generated Image result</strong></p>
+</section>
+<section id="css">
+	<div class="page-header"><h3>CSS</h3><hr class="notop"></div>
+<p>
+	This application imports one CSS files.</p>
+<ol>
+	<li>
+		My custom CSS file</li>
+</ol>
+<p>
+	<span id="result_box" lang="en"><span class="hps">This file</span> <span class="hps">describes the properties of</span> <span class="hps">interface elements</span><span>:</span> <span class="hps">container</span><span>,</span> <span class="hps">left and right</span> <span class="hps">panels,</span> <span class="hps">buttons</span></span>:</p>
+<pre class="prettyprint lang-css linenums">
+* {
+	margin:0;
+	padding:0;
+}
+
+.send_email {
+    display: none;
+}
+
+.container
+{
+	border:1px solid rgba(0,0,0,0.2);
+	overflow:hidden;
+	width:90%;
+	margin:1em auto;
+	padding:1em;
+}
+
+.left
+{
+	display:table-cell;
+	float:left;
+	width:370px;
+}
+
+.right
+{
+	display:table-cell;
+}
+
+.scene
+{
+	height:340px;
+	position:relative;
+	width:340px;
+}
+
+#scene,#scene2
+{
+	position:absolute;
+}
+
+#generate
+{
+	margin-top:1em;
+	text-align:center;
+}
+
+.ba_tabs
+{
+	overflow:hidden;
+	padding:1em;
+}
+
+.ba_pabs
+{
+	padding:1em;
+}
+
+.ba_pabs span
+{
+	display:none;
+}
+
+.ba_pabs &gt; div
+{
+	height:0;
+	overflow:hidden;
+}
+
+#fringes:target ~ #fringe,#eyebrows:target ~ #eyebrow,#eyes:target ~ #eye,#mouths:target ~ #mouth,#tops:target ~ #top,#skins:target ~ #skin, #back:target ~ #back
+{
+	height:auto;
+}
+
+.set
+{
+	overflow:hidden;
+	margin:1em 0;
+}
+
+.set div
+{
+	border:1px solid #BBB;
+	border-radius:3px;
+	box-shadow:0 0 1px 1px #F6F6F6 inset;
+	-webkit-box-shadow:0 0 1px 1px #F6F6F6 inset;
+	color:#333;
+	cursor:pointer;
+	display:inline-block;
+	font:bold 12px/1 &quot;helvetica neue&quot;,helvetica,arial,sans-serif;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #FFF;
+	width:40px;
+	margin:2px;
+	padding:15px 0;
+}
+
+.button
+{
+	background:none repeat scroll 0 0 #E3E3E3;
+	border:1px solid #BBB;
+	border-radius:3px;
+	box-shadow:0 0 1px 1px #F6F6F6 inset;
+	-webkit-box-shadow:0 0 1px 1px #F6F6F6 inset;
+	color:#333;
+	display:inline-block;
+	font:bold 12px/1 &quot;helvetica neue&quot;,helvetica,arial,sans-serif;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0 1px 0 #FFF;
+	width:150px;
+	margin:5px;
+	padding:8px 0 9px;
+}
+.text
+{
+	border:1px solid #BBB;
+	border-radius:3px;
+	font:bold 12px/1 "helvetica neue",helvetica,arial,sans-serif;
+	text-align:center;
+	margin:5px;
+	padding:8px 0 9px;
+}
+
+.set div:hover,.button:hover
+{
+	background:none repeat scroll 0 0 #D9D9D9;
+	box-shadow:0 0 1px 1px #EAEAEA inset;
+	-webkit-box-shadow:0 0 1px 1px #EAEAEA inset;
+	color:#222;
+	cursor:pointer;
+}
+
+.set div:active,.button:active
+{
+	background:none repeat scroll 0 0 #D0D0D0;
+	box-shadow:0 0 1px 1px #E3E3E3 inset;
+	-webkit-box-shadow:0 0 1px 1px #E3E3E3 inset;
+	color:#000;
+}
+
+.result .container .button
+{
+	display: block;
+	margin-left: 95px;
+	margin-top: 15px;
+}
+
+.loading {
+    display: none;
+    margin: 0 auto;
+    padding-top: 110px;
+    width: 190px;
+}
+.loading &gt; div {
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+    float:left;
+    height:114px;
+    margin-left:5px;
+    width:30px;
+    opacity:0.1;
+
+    /* css3 transform - scale */
+    -webkit-transform:scale(0.8);
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8);
+    transform:scale(0.8);
+
+    /* css3 animation */
+    -webkit-animation-name:loading;
+    -webkit-animation-duration:1.2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:linear;
+    -moz-animation-name:loading;
+    -moz-animation-duration:1.2s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:linear;
+    -o-animation-name:loading;
+    -o-animation-duration:1.2s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:linear;
+    animation-name:loading;
+    animation-duration:1.2s;
+    animation-iteration-count:infinite;
+    animation-direction:linear;
+}
+.loading &gt; div:nth-child(1) {
+    /* css3 animation */
+    -webkit-animation-delay:0.24s;
+    -moz-animation-delay:0.24s;
+    -o-animation-delay:0.24s;
+    animation-delay:0.24s;
+}
+.loading &gt; div:nth-child(2) {
+    /* css3 animation */
+    -webkit-animation-delay:0.48s;
+    -moz-animation-delay:0.48s;
+    -o-animation-delay:0.48s;
+    animation-delay:0.48s;
+}
+.loading &gt; div:nth-child(3) {
+    /* css3 animation */
+    -webkit-animation-delay:0.72s;
+    -moz-animation-delay:0.72s;
+    -o-animation-delay:0.72s;
+    animation-delay:0.72s;
+}
+.loading &gt; div:nth-child(4) {
+    /* css3 animation */
+    -webkit-animation-delay:0.96s;
+    -moz-animation-delay:0.96s;
+    -o-animation-delay:0.96s;
+    animation-delay:0.96s;
+}
+.loading &gt; div:nth-child(5) {
+    /* css3 animation */
+    -webkit-animation-delay:1.2s;
+    -moz-animation-delay:1.2s;
+    -o-animation-delay:1.2s;
+    animation-delay:1.2s;
+}
+
+/* css3 keyframes - loading */
+@-webkit-keyframes loading {
+    0% {
+        -webkit-transform:scale(1.2);
+        opacity:1;
+    }
+    100% {
+        -webkit-transform:scale(0.7);
+        opacity:0.1;
+    }
+}
+@-moz-keyframes loading {
+    0% {
+        -moz-transform:scale(1.2);
+        opacity:1;
+    }
+    100% {
+        -moz-transform:scale(0.7);
+        opacity:0.1;
+    }
+}
+@-o-keyframes loading {
+    0% {
+        -o-transform:scale(1.2);
+        opacity:1;
+    }
+    100% {
+        -o-transform:scale(0.7);
+        opacity:0.1;
+    }
+}
+@keyframes loading {
+    0% {
+        transform:scale(1.2);
+        opacity:1;
+    }
+    100% {
+        transform:scale(0.7);
+        opacity:0.1;
+    }
+}
+</pre>
+<p>
+	If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+</section>
+<section id="javascript">
+	<div class="page-header"><h3>JavaScript</h3><hr class="notop"></div>
+<p>
+	This application imports two Javascript files.</p>
+<ol>
+	<li>
+		jQuery</li>
+	<li>
+		My custom script</li>
+</ol>
+<p>
+	Details:</p>
+<ol>
+	<li>
+		jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+	<li>
+		The face builder application is implemented as a packed plugin, so you won&#39;t need to manually edit anything in the file. It automatically add all the necessary event handlers for the interface elements (buttons)</li>
+</ol>
+<p>
+	<strong>Please pay attention, that before linking the custom JS script (builder.min.js) you have to point your current website address. Example:</strong></p>
+<pre class="prettyprint lang-js linenums">
+var website_url = &#39;YOUR_WEBSITE_URL&#39;;
+</pre>
+</section>
+<section id="php">
+	<div class="page-header"><h3>PHP</h3><hr class="notop"></div>
+<p>
+	The &#39;accept_avatar.php&#39; file is used to turn the result image (by the builder) into the JPG format (the result is saved onto your website in the &#39;cache&#39; folder). <span class="short_text" id="result_box" lang="en"><span class="hps">Here</span> <span class="hps">the code of this</span> <span class="hps">file:</span></span></p>
+<p>
+	&nbsp;</p>
+<pre class="prettyprint lang-php linenums">
+// set error reporting level
+if (version_compare(phpversion(), &#39;5.3.0&#39;, &#39;&gt;=&#39;) == 1)
+&nbsp; error_reporting(E_ALL &amp; ~E_NOTICE &amp; ~E_DEPRECATED);
+else
+&nbsp; error_reporting(E_ALL &amp; ~E_NOTICE);
+
+// save file
+if ($_POST[&#39;data&#39;] != &#39;&#39;) {
+
+&nbsp;&nbsp;&nbsp; $files = glob(&quot;cache/*.jpg&quot;);
+&nbsp;&nbsp;&nbsp; foreach($files as $file) {
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; if(is_file($file) &amp;&amp; time() - filemtime($file) &gt;= 2*24*60*60) {
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; @unlink($file);
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; }
+&nbsp;&nbsp;&nbsp; }
+
+&nbsp;&nbsp;&nbsp; $sRand = rand(100000, 999999);
+&nbsp;&nbsp;&nbsp; $sOrigPath = &#39;cache/result&#39;.$sRand.&#39;.jpg&#39;;
+&nbsp;&nbsp;&nbsp; @unlink($sOrigPath);
+
+&nbsp;&nbsp;&nbsp; $img = $_POST[&#39;data&#39;];
+&nbsp;&nbsp;&nbsp; $img = str_replace(&#39;data:image/png;base64,&#39;, &#39;&#39;, $img);
+&nbsp;&nbsp;&nbsp; $img = str_replace(&#39;data:image/jpeg;base64,&#39;, &#39;&#39;, $img);
+&nbsp;&nbsp;&nbsp; $img = strip_tags($img);
+&nbsp;&nbsp;&nbsp; $img = str_replace(&#39; &#39;, &#39;+&#39;, $img);
+&nbsp;&nbsp;&nbsp; $decodedData = base64_decode($img);
+
+&nbsp;&nbsp;&nbsp; file_put_contents($sOrigPath, $decodedData);
+&nbsp;&nbsp;&nbsp; echo $sRand;
+}
+</pre>
+
+<p>
+	The &#39;email.php&#39; file is used to send the result image to Email. <span class="short_text" id="result_box" lang="en"><span class="hps">Here</span> <span class="hps">the code of this</span> <span class="hps">file:</span></span></p>
+<p>
+	&nbsp;</p>
+<pre class="prettyprint lang-php linenums">
+if(isset($_POST['name']) &amp;&amp; isset($_POST['email']) &amp;&amp; isset($_POST['file'])) {
+&nbsp;&nbsp;$emailto = $emailfrom = $_POST['email'];
+&nbsp;&nbsp;$name = $_POST['name'];
+&nbsp;&nbsp;$file = (int)$_POST['file'];
+&nbsp;&nbsp;$subject = 'Photo by '.$name;
+
+&nbsp;&nbsp;$separator = md5(time());
+&nbsp;&nbsp;$eol = PHP_EOL;
+
+&nbsp;&nbsp;$filename = $file.&quot;.jpg&quot;;
+&nbsp;&nbsp;$attachment = chunk_split(base64_encode(file_get_contents('cache/result'.$file.'.jpg')));
+
+&nbsp;&nbsp;$headers&nbsp;&nbsp;= &quot;From: &quot;.$emailfrom.$eol;
+&nbsp;&nbsp;$headers .= &quot;MIME-Version: 1.0&quot;.$eol; 
+&nbsp;&nbsp;$headers .= &quot;Content-Type: multipart/mixed; boundary=\&quot;&quot;.$separator.&quot;\&quot;&quot;;
+
+&nbsp;&nbsp;$body = &quot;--&quot;.$separator.$eol;
+&nbsp;&nbsp;$body .= &quot;Content-Transfer-Encoding: 7bit&quot;.$eol.$eol;
+&nbsp;&nbsp;$body .= &quot;This is a MIME encoded message.&quot;.$eol;
+
+&nbsp;&nbsp;$body .= &quot;--&quot;.$separator.$eol;
+&nbsp;&nbsp;$body .= &quot;Content-Type: text/html; charset=\&quot;iso-8859-1\&quot;&quot;.$eol;
+&nbsp;&nbsp;$body .= &quot;Content-Transfer-Encoding: 8bit&quot;.$eol.$eol;
+&nbsp;&nbsp;$body .= 'Your image'.$eol;
+
+&nbsp;&nbsp;$body .= &quot;--&quot;.$separator.$eol;
+&nbsp;&nbsp;$body .= &quot;Content-Type: application/octet-stream; name=\&quot;&quot;.$filename.&quot;\&quot;&quot;.$eol; 
+&nbsp;&nbsp;$body .= &quot;Content-Transfer-Encoding: base64&quot;.$eol;
+&nbsp;&nbsp;$body .= &quot;Content-Disposition: attachment&quot;.$eol.$eol;
+&nbsp;&nbsp;$body .= $attachment.$eol;
+&nbsp;&nbsp;$body .= &quot;--&quot;.$separator.&quot;--&quot;;
+
+&nbsp;&nbsp;if (mail($emailto, $subject, $body, $headers)) {
+&nbsp;&nbsp;$mail_sent=true;
+&nbsp;&nbsp;&nbsp;&nbsp;echo &quot;The letter was sent&quot;;
+&nbsp;&nbsp;} else {
+&nbsp;&nbsp;&nbsp;&nbsp;$mail_sent=false;
+&nbsp;&nbsp;&nbsp;&nbsp;echo &quot;Error, The letter was not sent&quot;;
+ }
+}
+</pre>
+</section>
+<section id="resources">
+	<div class="page-header"><h3>Resources</h3><hr class="notop"></div>
+<p>
+	The application uses the following <span class="short_text" id="result_box" lang="en"><span class="hps">graphic resources:</span></span></p>
+<ol>
+	<li>
+		<span class="short_text" lang="en"><span class="hps">data/eyebrow.png</span></span></li>
+	<li>
+		<span class="short_text" lang="en"><span class="hps">data/</span></span>eyes.png</li>
+	<li>
+		<span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps">data/face.png</span></span></span></span></li>
+	<li>
+		<span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps">data/fringes.png</span></span></span></span></span></span></li>
+	<li>
+		<span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps">data/mouths.png</span></span></span></span></span></span></span></span></li>
+	<li>
+		<span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps"><span class="short_text" lang="en"><span class="hps">data/tops.png</span></span></span></span></span></span></span></span></span></span></li>
+</ol>
+<p>
+	Every resource files contains multiple images of a <span class="short_text" id="result_box" lang="en"><span class="hps">corresponding section. In order to modify facial elements - you may edit a corre</span></span>sponding image file.</p>
+</section>
+<section id="credits">
+	<div class="page-header"><h3>Credits</h3><hr class="notop"></div>
+<p>
+	Once again, thank you so much for purchasing this product. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+<p>
+	<strong>Andrew Prikaznov</strong></p>
+</section>
+<section id="change_log">
+	<div class="page-header"><h3>Change Log</h3><hr class="notop"></div>
+<pre>
+Version: 1.0.4
+&mdash; Minor bug fix
+
+Version: 1.0.3
+&mdash; Added function to send results via e-mail (with attached image)
+&mdash; Added function to automatically remove old photos (older than 2 days)
+
+Version: 1.0.2
+&mdash; Made substantial improvements in the code to work with colors, added two new tops for men.
+
+Version: 1.0.1
+&mdash; The following features were added: download button for image, select avatar background color, graphic loader during the image generation.
+
+Version: 1.0.0
+&mdash; Release
+</pre>
+</section>
+
+
+
+    <hr />
+
+<footer>
+    <p>Copyright AramisGC 2014 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script>document.createElement('section');var duration='500',easing='swing';</script>
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-min.js"></script> 
+</body>
+</html>

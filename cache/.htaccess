@@ -1,0 +1,9 @@
+Options -Indexes
+
+<FilesMatch "^.*\.php|.*\.html|.*\.pl$">
+ForceType application/x-httpd-php-source
+</FilesMatch>
+
+<FilesMatch "\.(jpg|png|gif)$">
+   ForceType application/octet-stream
+</FilesMatch>
